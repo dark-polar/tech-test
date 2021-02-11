@@ -1,0 +1,69 @@
+1.
+Belum familiar dan saya akan sangat senang untuk mempelajarinya.
+Menurut dari yang saya baca, JSON Web Token (JWT) itu salah satu standar JSON (Javascript Object Notation) untuk keperluan akses token. Token dibentuk dari kombinasi beberapa informasi yang di-encode dan di-enkripsi. Kombinasi beberapa informasinya adalah header, payload dan signature.
+
+- Header, isinya itu jenis algoritma yang dipake untuk generate signature.
+- Payload, isinya itu data penting untuk keperluan otentikasi. Data ini dalam konteks JWT biasa disebut CLAIMS.
+- Signature, isinya itu hasil dari enkripsi data menggunakan algoritma kriptografi. Datanya gabungan dari (encoded) header, (encoded) payload, dan secret key.
+
+JWT biasanya dipakai untuk menerapkan teknik otorisasi menggunakan token, token di-generate di back end secara acak (menggunakan algoritma tertentu) terus disimpan di database bersamaan dengan data user. Token tersebut bisa jadi tidak ada isinya, cuma random string, atau bisa juga ada isinya.
+
+Nantinya di setiap http call, token yang disertakan di request header dicocokan dengan token yang ada di database, terus dilanjutin ke pengecekan, untuk ditentukan apakah request tersebut adalah verified request yang memang berhak mengakses endpoint.
+
+
+2.
+
+Untuk dari sisi UI, kembali menyesuaikan kebutuhan web atau aplikasi yang dibangun, namun dibuat sesimpel mungkin agar tidak membingungkan pengguna web atau aplikasi tersebut.
+
+Untuk dari sisi Keamanan, mengacu dan menggunakan teknologi terbaru untuk mengurangi resiko bug dan celah keamanan pada aplikasi web atau situs yang dibangun.
+
+Untuk dari sisi Kinerja, agar bisa memberikan hasil yang terbaik untuk membangun sebuah aplikasi atau web, adalah dengan membuat perencanaan dan analisa yang terstruktur. 
+
+Untuk dari sisi SEO, clean code untuk kecepatan web atau aplikasi tersebut, menanamkan non spammy backlink seperti hanya menempatkan pada link-link yang berkualitas, contoh : high DA PA dan masih berkaitan dengan niche website atau produk yang sama, set up keyword yang sudah diriset dan ditempatkan pada template header website.
+ 
+Untuk dari sisi Maintainability, memastikan code dan struktur yang digunakan dengan rapih, menggunakan variabel yang mudah dimengerti untuk memudahkan pencarian error ataupun penambahan ketika ada update.
+
+
+
+3.
+
+Belum dan saya akan sangat senang untuk mempelajarinya.
+Salah satu toolsnya adalah Jira, 
+
+menggabungkan sistem kanban board dan sistem scrumban, dengan memisahkan pengerjaan dan perbaikan serta melimitasi wip untuk masing masing jalur.
+
+
+4.
+Kesulitan yang dihadapi :
+- Kompleksitas Teknologi
+- Resiko keamanan
+- Konsumsi waktu yang berlebihan
+- Biaya yang mahal
+- Pemeliharaan dan pembaharuan
+- Sistem yang beragam
+
+Cara mengatasinya :
+- mencari developer berskill dan memiliki pengetahuan yg tinggi yg dapat menyelesaikan kerumitan pada sistem
+
+
+5.
+Baru menggunakan Python dan akan sangat senang untuk mempelajarinya.
+Context Manager adalah metode yang memungkinkan kita untuk mengalokasikan sumber daya (data) pada saat dibutuhkan, dan dilepaskan kembali ketika sudah tidak dibutuhkan.
+
+
+
+6. 
+Belum dan saya akan sangat senang untuk mempelajarinya.
+Docker adalah teknologi yang dapat membuat kita mudah membuat, deploy, dan menjalankan aplikasi dengan menggunakan container. Container ini dapat menjalankan aplikasi yang berbeda di satu server yang sama.
+
+- Install Docker
+- Install SCL & epel-release
+- Install Python
+- Install Pip
+- Install Django
+- Build Django App
+- Create Dockerfile
+- Docker Build
+- Running Container
+
+
