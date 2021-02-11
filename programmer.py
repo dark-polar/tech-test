@@ -1,5 +1,5 @@
 words = ["pro", "gram", "merit", "program", "it", "programmer"]
-patterns = "program" # ganti sama string yang mau dicari
+patterns = "program"
 matching = [s for s in words if patterns in s]
 
 print(matching)
